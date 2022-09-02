@@ -1,20 +1,15 @@
 {
-  "name": "adminpro",
-  "version": "0.0.0",
+  "name": "geotrabaq",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "heroku-postbuild": "ng build --prod"
   },
-  "private": true,
-  "heroku-postbuild": "ng build — prod",
-  "engines": {
-    "node": "v14.17.5",
-    "npm":  "6.14.14"
-  },
-  "start" : "node server.js",
+  "private": true,  
   "dependencies": {
     "@angular/animations": "^14.0.0",
     "@angular/common": "^14.0.0",
@@ -25,6 +20,7 @@
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
     "express": "^4.18.1",
+    "nodemon": "^1.19.1",
     "path": "^0.12.7",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
