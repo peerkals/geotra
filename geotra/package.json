@@ -6,10 +6,10 @@
     "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "heroku-postbuild": "ng build — dev"
   },
-  "private": true,
-  "heroku-postbuild": "ng build — dev",
+  "private": true,  
   "engines":{
     "node":"14.17.5",
     "npm":"6.14.14"
