@@ -1,9 +1,0 @@
-{
-    "name": "Start on Geotrabaq: Node.js",
-    "description": "Start Geotra",
-    "repository": "https://github.com/peerkals/geotra.git",
-    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
-    "keywords": ["node", "express", "heroku"],
-    "image": "heroku/nodejs"
-  }
-  
